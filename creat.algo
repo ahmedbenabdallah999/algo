@@ -1,0 +1,19 @@
+ALGORITHM CHERCHE
+VAR
+    str;STRING
+    tab=names :ARRAY_OF CHAR;
+    i:INTEGER=0
+    c:INTEGER=0
+    d:INTEGER=0
+    v:INTEGER=0
+    n=tab.length 
+BEGIN
+FOR i FROM 0 TO n-1   DO
+    IF (tab[i]=" ") THEN
+   c:=c+1
+    END_IF
+    IF (tab[i]="a,e,u,i,y,o") THEN
+    v:=v+1
+END_FOR
+    
+END 
